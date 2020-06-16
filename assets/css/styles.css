@@ -74,8 +74,11 @@
 /* --- MISSION ---*/
 #mission-div {
     padding-top:40px;
-    padding-bottom:20px;
     text-align:center;
+    padding-bottom: 20px;
+}
+.mission-col{
+    padding-bottom: 20px;
 }
 /* --- END OF SECTION ---*/
 
