@@ -137,6 +137,13 @@ blockquote p {
 /* --- END OF SECTION ---*/
 
 
+/* --- FOOTER ---*/
+hr.footer-hr{
+    border-top: 1px solid rgb(173, 173, 173);
+}
+/* --- END OF SECTION ---*/
+
+
 /* --- SCROLL TO TOP ---*/
 #return-to-top {
     position: fixed;
