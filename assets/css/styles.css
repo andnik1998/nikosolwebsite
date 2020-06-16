@@ -27,7 +27,7 @@
     
 #logo {
     display:inline-block;
-    max-width:140px;
+    max-width:160px;
 }
     
 #nav-style {
@@ -38,6 +38,11 @@
     padding-top:0px;
 }
 
+.nav-link {
+    color: rgb(255,255,255) !important;
+    font-size: 1.2em;
+}
+
 @media (max-width: 410px) {
     #welcome-jumbotron {
         padding:10px;
@@ -45,6 +50,15 @@
     }
     #welcome-section {
         padding:20px 10px;
+    }
+    #homemain {
+        background-size:cover;
+        background-position:center top;
+    }
+    .nav-link {
+        background-color: rgba(24, 24, 24, 0.6);
+        padding: 5px;
+        text-align: center;
     }
 }
 /* --- END OF SECTION ---*/
