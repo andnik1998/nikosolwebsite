@@ -139,7 +139,18 @@ blockquote p {
 
 /* --- FOOTER ---*/
 hr.footer-hr{
-    border-top: 1px solid rgb(173, 173, 173);
+    border-top: 1px solid #aaa;
+}
+
+.contact-style{
+    text-align: center;
+    color: rgb(201, 201, 201);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.icon-style{
+    font-size: 30px;
 }
 /* --- END OF SECTION ---*/
 
