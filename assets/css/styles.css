@@ -1,3 +1,109 @@
+/* --- PRODUCTS ---*/
+#products-div{
+    background:url(../../assets/img/productsbg.jpg) no-repeat;
+    background-size:cover;
+    background-position:right center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.products-heading{
+    color: #fff;
+}
+
+.card-styling{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+/* --- END OF SECTION ---*/
+
+/* --- ABOUT US ---*/
+#about-div {
+    background-color:rgb(232,232,232);
+    padding-top:30px;
+    padding-bottom:30px;
+}
+blockquote {
+    background: #f9f9f9;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    text-align: center;
+}
+blockquote p {
+    display: inline;
+    font-size: 1.5em;
+    
+}
+/* --- END OF SECTION ---*/
+
+#welcome-section {
+    text-align:center;
+    padding:40px;
+  }
+  
+  #homemain {
+    background:url(../../assets/img/mainbg.jpg) no-repeat;
+    background-size:cover;
+    background-position:center center;
+  }
+  
+  #welcome-jumbotron {
+    border-radius:10px;
+    padding:20px;
+    max-width:700px;
+    background-color:rgba(255,255,255,0);
+    margin:0 auto;
+    margin-bottom:50px;
+    margin-top:30px;
+    color:rgb(255,255,255);
+  }
+  
+  @media (max-width: 410px) {
+    #welcome-jumbotron {
+      padding:10px;
+      margin:0 auto;
+    }
+  }
+  
+  @media (max-width: 410px) {
+    #welcome-section {
+      padding:10px;
+    }
+  }
+  
+  #mission-div {
+    padding-top:40px;
+    padding-bottom:20px;
+    text-align:center;
+  }
+  
+  #main-heading {
+    padding-bottom:10px;
+  }
+  
+  #logo {
+    display:inline-block;
+    max-width:140px;
+  }
+  
+  #nav-style {
+    padding-top:0px;
+  }
+  
+  #nav-logo {
+    padding-top:0px;
+  }
+  
+  #gallery-div {
+    margin-top:30px;
+    margin-bottom:30px;
+  }
+  
+  .slide-style {
+    border-radius:10px;
+  }
+  
+
+
 /* --- SCROLL TO TOP ---*/
 #return-to-top {
     position: fixed;
@@ -18,8 +124,8 @@
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-  }
-  #return-to-top i {
+}
+#return-to-top i {
     color: #fff;
     margin: 0;
     position: relative;
@@ -31,13 +137,12 @@
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-  }
-  #return-to-top:hover {
+}
+#return-to-top:hover {
     background: rgba(0, 0, 0, 0.9);
-  }
-  #return-to-top:hover i {
+}
+#return-to-top:hover i {
     color: #fff;
     top: 5px;
-  }
-  
-  /* --- END OF SECTION ---*/
+}
+/* --- END OF SECTION ---*/
