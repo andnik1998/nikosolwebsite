@@ -1,19 +1,63 @@
-/* --- PRODUCTS ---*/
-#products-div{
-    background:url(../../assets/img/productsbg.jpg) no-repeat;
-    background-size:cover;
-    background-position:right center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.products-heading{
-    color: #fff;
+/* --- HOME MAIN ---*/
+#welcome-section {
+    text-align:center;
+    padding:40px;
 }
 
-.card-styling{
-    background-color: rgba(255, 255, 255, 0.9);
+#homemain {
+    background:url(../../assets/img/mainbg.jpg) no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+
+#welcome-jumbotron {
+    border-radius:10px;
+    padding:20px;
+    max-width:700px;
+    background-color:rgba(255,255,255,0);
+    margin:0 auto;
+    margin-bottom:50px;
+    margin-top:30px;
+    color:rgb(255,255,255);
+}
+
+#main-heading {
+    padding-bottom:10px;
+}
+    
+#logo {
+    display:inline-block;
+    max-width:140px;
+}
+    
+#nav-style {
+    padding-top:0px;
+}
+    
+#nav-logo {
+    padding-top:0px;
+}
+
+@media (max-width: 410px) {
+    #welcome-jumbotron {
+        padding:10px;
+        margin:0 auto;
+    }
+    #welcome-section {
+        padding:10px;
+    }
 }
 /* --- END OF SECTION ---*/
+
+
+/* --- MISSION ---*/
+#mission-div {
+    padding-top:40px;
+    padding-bottom:20px;
+    text-align:center;
+}
+/* --- END OF SECTION ---*/
+
 
 /* --- ABOUT US ---*/
 #about-div {
@@ -35,73 +79,35 @@ blockquote p {
 }
 /* --- END OF SECTION ---*/
 
-#welcome-section {
-    text-align:center;
-    padding:40px;
-  }
-  
-  #homemain {
-    background:url(../../assets/img/mainbg.jpg) no-repeat;
+
+/* --- PRODUCTS ---*/
+#products-div{
+    background:url(../../assets/img/productsbg.jpg) no-repeat;
     background-size:cover;
-    background-position:center center;
-  }
-  
-  #welcome-jumbotron {
-    border-radius:10px;
-    padding:20px;
-    max-width:700px;
-    background-color:rgba(255,255,255,0);
-    margin:0 auto;
-    margin-bottom:50px;
-    margin-top:30px;
-    color:rgb(255,255,255);
-  }
-  
-  @media (max-width: 410px) {
-    #welcome-jumbotron {
-      padding:10px;
-      margin:0 auto;
-    }
-  }
-  
-  @media (max-width: 410px) {
-    #welcome-section {
-      padding:10px;
-    }
-  }
-  
-  #mission-div {
-    padding-top:40px;
-    padding-bottom:20px;
-    text-align:center;
-  }
-  
-  #main-heading {
-    padding-bottom:10px;
-  }
-  
-  #logo {
-    display:inline-block;
-    max-width:140px;
-  }
-  
-  #nav-style {
-    padding-top:0px;
-  }
-  
-  #nav-logo {
-    padding-top:0px;
-  }
-  
-  #gallery-div {
+    background-position:right center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.products-heading{
+    color: #fff;
+}
+
+.card-styling{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+/* --- END OF SECTION ---*/
+
+
+/* --- GALLERY ---*/
+#gallery-div {
     margin-top:30px;
     margin-bottom:30px;
-  }
+}
   
-  .slide-style {
+.slide-style {
     border-radius:10px;
-  }
-  
+} 
+/* --- END OF SECTION ---*/
 
 
 /* --- SCROLL TO TOP ---*/
