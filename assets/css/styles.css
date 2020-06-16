@@ -110,7 +110,8 @@ blockquote p {
     background-size:cover;
     background-position:right center;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    
 }
 .products-heading{
     color: #fff;
@@ -118,6 +119,8 @@ blockquote p {
 
 .card-styling{
     background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    margin-bottom: 20px;
 }
 /* --- END OF SECTION ---*/
 
