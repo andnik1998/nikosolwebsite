@@ -50,7 +50,7 @@
     color: rgb(32, 32, 32) !important;
 }
 
-@media (max-width: 410px) {
+@media (max-width: 450px) {
     #welcome-jumbotron {
         padding:10px;
         margin:0 auto;
