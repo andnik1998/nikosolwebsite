@@ -152,6 +152,17 @@ hr.footer-hr{
 .icon-style{
     font-size: 30px;
 }
+
+.copyright a{
+    color: rgb(177, 177, 177) !important;
+    text-decoration: none;
+}
+
+.copyright :hover{
+    color: rgb(216, 216, 216) !important;
+    text-decoration: none;
+}
+
 /* --- END OF SECTION ---*/
 
 
